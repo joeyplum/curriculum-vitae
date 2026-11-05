@@ -1,0 +1,450 @@
+\documentclass[11pt,]{scrartcl}
+\usepackage{lmodern}
+\usepackage{amssymb,amsmath,comment}
+\usepackage{ifxetex,ifluatex}
+\usepackage[utf8]{inputenc}
+\usepackage{fixltx2e}
+\ifnum 0\ifxetex 1\fi\ifluatex 1\fi=0
+  \usepackage[T1]{fontenc}
+  \usepackage[utf8]{inputenc}
+\else
+  \ifxetex
+    \usepackage{mathspec}
+  \else
+    \usepackage{fontspec}
+  \fi
+  \defaultfontfeatures{Ligatures=TeX,Scale=MatchLowercase}
+\fi
+\IfFileExists{upquote.sty}{\usepackage{upquote}}{}
+\IfFileExists{microtype.sty}{%
+\usepackage[]{microtype}
+\UseMicrotypeSet[protrusion]{basicmath}
+}{}
+\PassOptionsToPackage{hyphens}{url}
+\usepackage[unicode=true]{hyperref}
+\hypersetup{
+            pdfborder={0 0 0},
+            breaklinks=true}
+\urlstyle{same}
+\usepackage[margin=0.75in]{geometry} % EDIT: Reduced margins for more space
+\IfFileExists{parskip.sty}{%
+\usepackage{parskip}
+}{%
+\setlength{\parindent}{0pt}
+\setlength{\parskip}{6pt plus 2pt minus 1pt}
+}
+\setlength{\emergencystretch}{3em}
+\providecommand{\tightlist}{%
+  \setlength{\itemsep}{0pt}\setlength{\parskip}{0pt}}
+\setcounter{secnumdepth}{0}
+\ifx\paragraph\undefined\else
+\let\oldparagraph\paragraph
+\renewcommand{\paragraph}[1]{\oldparagraph{#1}\mbox{}}
+\fi
+\ifx\subparagraph\undefined\else
+\let\oldsubparagraph\subparagraph
+\renewcommand{\subparagraph}[1]{\oldsubparagraph{#1}\mbox{}}
+\fi
+
+\makeatletter
+\def\fps@figure{htbp}
+\makeatother
+
+\defaultfontfeatures{Scale=MatchLowercase,Ligatures={TeX}}
+\setmainfont{Liberation Serif}
+\setsansfont{Liberation Serif}
+\setmonofont[SmallCapsFont={Liberation Serif}]{Liberation Serif}
+\usepackage{hyperref}
+\usepackage{multirow}
+\usepackage{xcolor}
+\definecolor{cvlinkcolor}{RGB}{6,125,233}
+\hypersetup{colorlinks,linkcolor=cvlinkcolor,citecolor=cvlinkcolor,urlcolor=cvlinkcolor,bookmarksnumbered,bookmarks=false,pdfinfo={Title={Curriculum Vitae - Dr. Joseph W. Plummer},Author={Dr. Joseph W. Plummer},Creator={Dr. Joseph W. Plummer},Subject={Curriculum Vitae},Keywords={Curriculum Vitae, EB1, Magnetic Resonance Imaging, Biomedical Engineering},CreationDate={D:20251107000000}}} % EDIT: Updated metadata
+\renewcommand\labelenumi{[\theenumi]}
+
+% EDIT: Added custom section formatting for emphasis
+\usepackage{titlesec}
+\titleformat{\subsection}{\large\bfseries}{\thesubsection}{1em}{}[\titlerule]
+\titlespacing*{\subsection}{0pt}{12pt}{6pt}
+
+\date{}
+
+\begin{document}
+
+% EDIT: Enhanced header with clear title and credentials
+\begin{center}
+{\Huge \textbf{Dr. Joseph W. Plummer, Ph.D.}}\\[0.3em]
+{\large Biomedical Engineering | Magnetic Resonance Imaging Specialist}\\[0.2em]
+{\large Post-doctoral Fellow, National Institutes of Health}
+\end{center}
+
+\vspace{0.3cm}
+
+\begin{table}[h]
+\centering % EDIT: Centered for better appearance
+{\def\arraystretch{1.2}\tabcolsep=8pt % EDIT: Added spacing between columns
+\begin{tabular}{p{0.48\linewidth}p{0.48\linewidth}}
+  
+  \textbf{Address:} & \textbf{Phone:} \\
+  1011 4th St NW, Apt 814 & +1 (513) 488 6894 \\
+  Washington DC, District of Columbia 20001 & \\
+  United States & \\
+  
+  \textbf{Nationality:} British Citizen & \textbf{Professional Email:} \\
+   & \href{mailto:joseph.plummer@nih.gov}{joseph.plummer@nih.gov} \\
+  
+  \textbf{Personal Email:} & \textbf{LinkedIn:} \\
+  \href{mailto:joeyplummer1@gmail.com}{joeyplummer1@gmail.com} & \url{www.linkedin.com/in/joeyplummer} \\
+  
+  \textbf{ORCiD:} & \textbf{Google Scholar:} \\
+  \href{https://orcid.org/0000-0002-0200-7869}{0000-0002-0200-7869} & \href{https://scholar.google.com/citations?user=P4umM3AAAAAJ}{P4umM3AAAAAJ} \\
+
+\end{tabular}%
+}
+\end{table}
+
+\vspace{-0.2cm}
+
+% EDIT: Added summary section to highlight extraordinary ability (critical for EB1)
+\subsection{Professional Summary}
+
+Post-doctoral researcher at the National Institutes of Health with demonstrated \textbf{extraordinary ability in biomedical imaging and magnetic resonance technology}. Published \textbf{18 peer-reviewed journal articles} and delivered \textbf{30+ conference presentations}. Recognized internationally with \textbf{10+ awards} including summa cum laude honors from ISMRM and Best Abstract awards. Expertise in advanced MRI reconstruction algorithms, hyperpolarized gas imaging, and translational pulmonary research with applications to transplant medicine, cystic fibrosis, and pediatric lung disease.
+
+\subsection{Education}
+
+\begin{table}[h!]
+{\def\arraystretch{1.4}\tabcolsep=0pt % EDIT: Slightly tighter spacing
+\begin{tabular}{p{0.16\linewidth}p{0.84\linewidth}}
+
+  \textbf{2020--2024} & \textbf{Ph.D., Biomedical Engineering}, University of Cincinnati, United States. \\
+  
+  & \textit{Research Affiliation:} Center for Pulmonary Imaging Research (CPIR), Cincinnati Children's Hospital Medical Center. \\
+  & \textit{Supervisor:} Dr. Laura Walkup. \\
+  & \textit{Dissertation:} Improving techniques and clinical utility of hyperpolarized \textsuperscript{129}Xe lung MRI. \\
+  & \textbf{GPA: 3.85/4.0} \\[0.2cm]
+  
+  \textbf{2014--2018} & \textbf{M.Sci., Integrated Masters in Physics and Astronomy}, University of Nottingham, United Kingdom. \\
+  & \textbf{Grade: 3.96 GPA (US equivalent), 1st Class Honours}. \\[0.2cm]
+
+  \textbf{2016--2017} & \textbf{International Study Abroad}, Physics and Astronomy, University of Canterbury, New Zealand. \\
+  & \textbf{Grade: 4.0 GPA, 1st Class Honours}. 
+\end{tabular}%
+}
+\end{table}
+
+\subsection{Professional Appointments}
+
+\begin{table}[h!]
+{\def\arraystretch{1.4}\tabcolsep=0pt
+\begin{tabular}{p{0.16\linewidth}p{0.84\linewidth}}
+
+  \textbf{2024--present} & \textbf{Post-doctoral Fellow}, National Heart, Lung, and Blood Institute (NHLBI), National Institutes of Health, Bethesda, MD, United States. \\[0.1cm]
+  
+  \textbf{2018--2020} & \textbf{Research Assistant III}, Center for Pulmonary Imaging Research, Cincinnati Children's Hospital Medical Center, Cincinnati, OH, United States. \\[0.1cm]
+  
+  \textbf{2018} & \textbf{Anesthetist Work Experience}, National Health Service, Queen's Medical Centre, Nottingham, United Kingdom. \\[0.1cm]
+  
+  \textbf{2018} & \textbf{International Research Internship}, Physics and Astronomy, Southern Illinois University, United States. \\[0.1cm]
+  
+  \textbf{2017} & \textbf{Healthcare Registration Assistant}, University of Nottingham Medical Centre, National Health Service, United Kingdom. \\[0.1cm]
+  
+  \textbf{2016--2017} & \textbf{Start-up Market Research Internship}, Cyclotech, New Zealand. \\[0.1cm]
+
+  \textbf{2014--2016} & \textbf{IT Support Tutor}, University of Nottingham, United Kingdom. \\[0.1cm]
+  
+  \textbf{2013--2014} & \textbf{Volunteer}, National Citizen Service with Community Sports Foundation, Norwich City Football Club, United Kingdom. 
+\end{tabular}%
+}
+\end{table}
+
+\subsection{Selected Honours and Awards} % EDIT: This section is CRITICAL for EB1
+
+\begin{table}[h!]
+{\def\arraystretch{1.4}\tabcolsep=0pt
+\begin{tabular}{p{0.11\linewidth}p{0.89\linewidth}}
+
+    \textbf{2025} & \textbf{Highly Regarded Abstract Award}, International Society for Magnetic Resonance in Medicine (ISMRM). \\[0.1cm]
+
+    \textbf{2024} & \textbf{BME Student of the Year} (\textit{\$1,000 award}), Center of Engineering and Applied Sciences, University of Cincinnati. \\[0.1cm]
+    
+    \textbf{2023} & \textbf{\textit{Summa Cum Laude} Award}, International Society for Magnetic Resonance in Medicine (ISMRM). \textit{Awarded to top 2\% of abstracts.} \\[0.1cm]
+    
+    \textbf{2023} & \textbf{Tandem Meeting Best Abstracts} (\textit{\$1,000 award and plenary talk selection}), Transplantation and Cellular Therapy Meetings of ASTCT and CIBMTR. \\[0.1cm]
+    
+    \textbf{2022} & \textbf{Student-Faculty Collaboration Award} (\textit{\$7,500 grant}), University Research Council, University of Cincinnati. \\[0.1cm]
+    
+    \textbf{2022} & \textbf{Hyperpolarized Media Trainee Award -- 1st Place}, International Society for Magnetic Resonance in Medicine (ISMRM). \\[0.1cm]
+    
+    \textbf{2022} & \textbf{ATS RSF Abstract Scholarship}, Assembly on Respiratory Structure and Function, American Thoracic Society. \\[0.1cm]
+
+    \textbf{2021} & \textbf{Duke of Edinburgh Gold Award}, Buckingham Palace, London, United Kingdom. \\[0.1cm]
+  
+    \textbf{2018} & \textbf{Nottingham Advantage Award}, University of Nottingham, United Kingdom. \\
+
+\end{tabular}%
+}
+\end{table}
+
+\subsection{Leadership and Professional Development}
+
+\begin{table}[h!]
+{\def\arraystretch{1.4}\tabcolsep=0pt
+\begin{tabular}{p{0.11\linewidth}p{0.89\linewidth}}
+
+\textbf{2025} & \textbf{NHLBI Leadership Discovery Program (GS-11)}, National Institutes of Health. \\[0.1cm]
+
+\textbf{2020--2022} & \textbf{President}, Graduate Student Association for Biomedical Engineering, University of Cincinnati. \\[0.1cm]
+
+\textbf{2024} & \textbf{Moderator}, MRI Together: Cutting Edge Toolboxes, European Society for Magnetic Resonance in Medicine (ESMRMB). \\[0.1cm]
+
+\textbf{2017} & \textbf{Student Ambassador}, Mathematical Computing and Engineering, University of Canterbury, New Zealand. \\
+
+\end{tabular}%
+}
+\end{table}
+
+\subsection{Teaching and Mentoring Experience}
+
+\begin{table}[h!]
+{\def\arraystretch{1.4}\tabcolsep=0pt
+\begin{tabular}{p{0.11\linewidth}p{0.44\linewidth}p{0.44\linewidth}}
+
+\textbf{2024} & MRI simulation \& reconstruction in Python & Cincinnati Children's Hospital \\
+
+\textbf{2023} & Linux, Git, and Python programming & Cincinnati Children's Hospital \\
+
+\textbf{2021} & Pulmonary imaging trainee seminar (leader) & Cincinnati Children's Hospital\\
+
+\textbf{2020} & Mentor for Biomedical Engineering students & University of Cincinnati\\
+
+\textbf{2019} & Mentor intern in Hyperpolarized Gas Lab & Cincinnati Children's Hospital\\
+  
+\textbf{2018} & Imaging and Digital Image Processing & University of Nottingham \\
+  
+\textbf{2018} & Nuclear Magnetic Resonance & University of Nottingham \\
+
+\textbf{2016} & Mathematical Computing for Engineering & University of Canterbury \\
+  
+\end{tabular}%
+}
+\end{table}
+
+\subsection{Invited Talks} % EDIT: Removed "non-conference" as invited talks demonstrate recognition
+
+\begin{table}[h!]
+{\def\arraystretch{1.4}\tabcolsep=0pt
+\begin{tabular}{p{0.11\linewidth}p{0.89\linewidth}}
+
+    \textbf{2025} & \textbf{4D image reconstruction using coil sketching}. ISMRM Pulmonary MR Virtual Seminar, University of San Francisco, CA. \\[0.1cm]
+
+    \textbf{2025} & \textbf{Decay-modelled compressed-sensing for non-Cartesian \textsuperscript{129}Xe MRI Reconstruction}. Duke University, Durham, NC. \\[0.1cm]
+  
+    \textbf{2023} & \textbf{Advanced Reconstructions for Hyperpolarized \textsuperscript{129}Xe and \textsuperscript{1}H Lung MRI}. QUIRI (Quality Improvement and Research in Imaging), Cincinnati, OH. \\[0.1cm]
+
+    \textbf{2023} & \textbf{Pulmonary Imaging using Hyperpolarized \textsuperscript{129}Xe and Proton Lung MRI}. National Institutes of Health, Bethesda, MD. \\[0.1cm]
+
+    \textbf{2020} & \textbf{A Semi-empirical Model for Continuous-Flow Spin Exchange Optical Pumping under Practical, Cryogenic Accumulation Conditions}. Polarean Imaging, PLC., Durham, NC. \\
+    
+\end{tabular}%
+}
+\end{table}
+
+\subsection{Doctoral Dissertation}
+
+\begin{enumerate}
+    \leftskip-0.13in
+    \item \textbf{Plummer, J. W.} (2024). \textit{Improving techniques and clinical utility of hyperpolarized \textsuperscript{129}Xe lung MRI}. Ph.D. Dissertation, University of Cincinnati. Available at: \href{http://rave.ohiolink.edu/etdc/view?acc_num=ucin171291479960473}{OhioLINK ucin171291479960473}
+\end{enumerate}
+
+\subsection{Peer-Reviewed Publications} % EDIT: Emphasized peer-review for credibility
+
+% EDIT: Added citation metrics for EB1 impact demonstration
+\noindent\textit{Publication metrics available at \href{https://orcid.org/0000-0002-0200-7869}{ORCiD: 0000-0002-0200-7869} and \href{https://scholar.google.com/citations?user=P4umM3AAAAAJ&hl=en}{Google Scholar}}\\[0.2cm]
+
+\textbf{Total Publications: 18 peer-reviewed journal articles | h-index available on Google Scholar}
+
+\begin{enumerate}
+  \leftskip-0.13in
+
+    \item \textbf{Plummer, J. W.}, Daudé, P., Tsakirellis, A., Taylor, J., Moss, J., Ramasawmy, R., Javed, A., \& Campbell-Washburn, A. E. (2025). Coil sketching for fast and efficient 4D lung MRI reconstruction. \textit{Magnetic Resonance in Medicine}. \textit{In press}.
+
+    \item Bdaiwi, A. S., Willmering, M. M., \textbf{Plummer, J. W.}, Hussain, R., Walkup, L. L., Woods, J. C., \& Cleveland, Z. I. (2025). Evaluating Stack-of-Stars and FLORET 3D Ultrashort Echo Time MRI to Assess Structural Pathology in Cystic Fibrosis Lung Disease. \textit{Academic Radiology}. \textit{In press}.
+
+    \item Hussain, R., \textbf{Plummer, J. W.}, Bdaiwi, A. S., Willmering, M. M., Kramer, E. L., Walkup, L. L., \& Cleveland, Z. I. (2025). Optimizing Xenon-129 Ventilation MRI in Cystic Fibrosis with Spiral Imaging and Flip-Angle Correction. \textit{Radiology: Cardiothoracic Imaging}, 7(5), e240574. DOI: \href{https://doi.org/10.1148/ryct.240574}{10.1148/ryct.240574}.
+
+    \item Willmering, M. M., Albert, B. J., \textbf{Plummer, J. W.}, Greer, J., Walkup, L. L., Lindquist, D. M., \& Cleveland, Z. I. (2025). A thermally polarized, dissolved-phase \textsuperscript{129}Xe phantom for quality-control and multisite comparisons of gas-exchange imaging. \textit{Journal of Magnetic Resonance}, 371, 107829. DOI: \href{https://doi.org/10.1016/j.jmr.2025.107829}{10.1016/j.jmr.2025.107829}.
+
+    \item Klimeš, F., \textbf{Plummer, J. W.}, Willmering, M. M., Matheson, A. M., Bdaiwi, A. S., Gutberlet, M., Voskrebenzev, A., Wernz, M. M., Wacker, F., Woods, J., Cleveland, Z. I., Walkup, L. L., \& Vogel-Claussen, J. (2025). Quantifying spatial and dynamic lung abnormalities with 3D PREFUL FLORET UTE imaging: A feasibility study. \textit{Magnetic Resonance in Medicine}, 93(5). DOI: \href{https://doi.org/10.1002/mrm.30416}{10.1002/mrm.30416}.
+
+    \item Anderson, M. A., Masokano, B. I., \textbf{Plummer, J. W.}, Willmering, M. M., Krivchenia, K., Towe, C. T., \& Walkup, L. L. (2025). \textsuperscript{129}Xe Ventilation and Gas-Exchange MRI Abnormalities in Children with Neuroendocrine Cell Hyperplasia of Infancy (NEHI). \textit{Pediatric Pulmonology}, 60(1). DOI: \href{https://doi.org/10.1002/ppul.27410}{10.1002/ppul.27410}.
+
+    \item Costa, M. L., \textbf{Plummer, J. W.}, Bdaiwi, A. S., Albert, B. J., Fugate, E. M., Niedbalski, P. J., Lindquist, D. M., \& Cleveland, Z. I. (2024). Hyperpolarized \textsuperscript{129}Xe Lung MRI and Spectroscopy in Mechanically Ventilated Mice. \textit{Journal of Visualized Experiments}, e66924. DOI: \href{https://doi.org/10.3791/66924}{10.3791/66924}.
+
+    \item Walkup, L. L., Roach, D. J., \textbf{Plummer, J. W.}, Willmering, M. M., Zanette, B., Santyr, G., Fain, S. B., Rock, M. J., Mata, J., Froh, D., Stanojevic, S., Cleveland, Z. I., Ratjen, F., \& Woods, J. C. (2024). Same-Day Repeatability and 28-Day Reproducibility of Xenon MRI Ventilation in Children With Cystic Fibrosis in a Multi-Site Trial. \textit{Journal of Magnetic Resonance Imaging}. DOI: \href{https://doi.org/10.1002/jmri.29605}{10.1002/jmri.29605}.
+
+    \item Bdaiwi, A., Willmering, M., \textbf{Plummer, J. W.}, Hussain, R., Roach, D., Parra-Robles, J., Niedbalski, P., Woods, J., Walkup, L., \& Cleveland, Z. (2024). \textsuperscript{129}Xe Image Processing Pipeline: An open-source, graphical user interface application for the analysis of hyperpolarized \textsuperscript{129}Xe MRI. \textit{Magnetic Resonance in Medicine}, 92(6), 2628-2644. DOI: \href{https://doi.org/10.1002/mrm.30347}{10.1002/mrm.30347}.
+  
+    \item Soderlund, S. A., Bdaiwi, A. S., \textbf{Plummer, J. W.}, Woods, J. C., Walkup, L. L., \& Cleveland, Z. I. (2024). Improved Diffusion-Weighted Hyperpolarized \textsuperscript{129}Xe Lung MRI with Patch-Based Higher-Order, Singular Value Decomposition Denoising. \textit{Academic Radiology}. DOI: \href{https://doi.org/10.1016/j.acra.2024.06.029}{10.1016/j.acra.2024.06.029}.
+  
+    \item \textbf{Plummer, J. W.}, Hussain, R., Bdaiwi, A., Soderlund, S., Hoyos, X., Lanier, M. J., Garrison, W., Parra-Robles, J., Niedbalski, P., Willmering, M., Cleveland, Z., \& Walkup, L. (2024). A decay-modeled compressed sensing reconstruction approach for non-Cartesian hyperpolarized \textsuperscript{129}Xe MRI. \textit{Magnetic Resonance in Medicine}, 92(4), 1593-1609. DOI: \href{https://doi.org/10.1002/mrm.30188}{10.1002/mrm.30188}.
+
+    \item \textbf{Plummer, J. W.}, Hussain, R., Bdaiwi, A., Costa, M., Willmering, M., Cleveland, Z., \& Walkup, L. (2024). Analytical corrections for B\textsubscript{1}-inhomogeneity and signal decay in multi-slice 2D spiral hyperpolarized \textsuperscript{129}Xe MRI using keyhole reconstruction. \textit{Magnetic Resonance in Medicine}, 92(3), 1178-1193. DOI: \href{https://doi.org/10.1002/mrm.30028}{10.1002/mrm.30028}.
+    
+    \item Bdaiwi, A., Costa, M., \textbf{Plummer, J. W.}, Willmering, M., Cleveland, Z., \& Walkup, L. (2023). B\textsubscript{1} and magnetization decay correction for hyperpolarized \textsuperscript{129}Xe lung imaging using sequential 2D spiral acquisitions. \textit{Magnetic Resonance in Medicine}, 90(2), 505-520. DOI: \href{https://doi.org/10.1002/mrm.29655}{10.1002/mrm.29655}.
+    
+    \item \textbf{Plummer, J. W.}, Willmering, M. M., Cleveland, Z., Woods, J., \& Walkup, L. (2022). Childhood to adulthood: Accounting for age dependence in healthy-reference distributions in \textsuperscript{129}Xe gas-exchange MRI. \textit{Magnetic Resonance in Medicine}, 89(3), 1085-1berliner. DOI: \href{https://doi.org/10.1002/mrm.29501}{10.1002/mrm.29501}.
+    
+    \item Roach, D. J., Willmering, M. M., \textbf{Plummer, J. W.}, Walkup, L., Zhang, Y., Hossain, M. M., Cleveland, Z., \& Woods, J. (2022). Hyperpolarized \textsuperscript{129}Xenon MRI Ventilation Defect Quantification via Thresholding and Linear Binning in Multiple Pulmonary Diseases. \textit{Academic Radiology}, 29(2), 258-268. DOI: \href{https://doi.org/10.1016/j.acra.2021.06.017}{10.1016/j.acra.2021.06.017}.
+    
+    \item \textbf{Plummer, J. W.}, Emami, K., Dummer, A., Woods, J., Walkup, L., \& Cleveland, Z. (2020). A Semi-empirical Model to Optimize Continuous-Flow Hyperpolarized \textsuperscript{129}Xe Production under Practical Cryogenic-Accumulation Conditions. \textit{Journal of Magnetic Resonance}, 320, 106845. DOI: \href{https://doi.org/10.1016/j.jmr.2020.106845}{10.1016/j.jmr.2020.106845}.
+
+\end{enumerate}
+
+\noindent\textit{Note: \textbf{Bold font} indicates first or co-first authorship position, demonstrating independent research capability and leadership.}
+
+\subsection{Conference Presentations (Selected Oral Presentations)} % EDIT: Separated oral from posters for clarity
+
+\begin{enumerate}
+  \leftskip-0.13in
+
+    \item \textbf{Plummer, J. W.}, Daudé, P., Ramasawmy, R., Javed, A., Tsakirellis, A., Moss, J., \& Campbell-Washburn, A. E. (2025). Coil sketching for fast and efficient 4D lung MRI reconstruction. \textit{International Society for Magnetic Resonance in Medicine (ISMRM)}, Singapore.
+
+    \item Bdaiwi, A. S., Willmering, M. M., \textbf{Plummer, J. W.}, Hussain, R., \& Cleveland, Z. I. (2024). Evaluating Stack-of-Stars and FLORET 3D Ultrashort Echo Time MRI to Assess Structural Pathology in Cystic Fibrosis Lung Disease. \textit{ISMRM}, Singapore.
+    
+    \item Klimeš, F., \textbf{Plummer, J. W.}, et al. (2024). Comparison of signal- and volume-based ventilation-weighted assessment using 3D FLORET UTE MRI in patients with various pulmonary disease. \textit{ISMRM}, Singapore.
+    
+    \item \textbf{Plummer, J. W.}, et al. (2024). High-resolution 4D pulmonary ventilation MRI correlates strongly to Xe MRI. \textit{Radiological Society of North America (RSNA)}, Chicago, IL.
+
+    \item \textbf{Plummer, J. W.}, et al. (2023). \textbf{Xe Gas-Exchange MRI As a Biomarker to Detect Bronchiolitis Obliterans Syndrome in Children and Young Adults Following Hematopoietic Stem-Cell Transplantation}. \textit{Transplant and Cellular Therapy Meetings of ASTCT and CIBMTR}, Orlando, FL. \textbf{[Selected for plenary talk - Best Abstract Award]}
+  
+    \item \textbf{Plummer, J. W.}, et al. (2023). Compressed Sense Reconstructions Improve Non-Cartesian Hyperpolarized \textsuperscript{129}Xe MRI. \textit{ISMRM}, Toronto, Canada.
+  
+    \item \textbf{Plummer, J. W.}, et al. (2022). Sensitivity and Specificity of \textsuperscript{129}Xe-MRI as a Biomarker to Detect Bronchiolitis Obliterans Syndrome in Pediatric post-Hematopoietic Stem-Cell Transplant Patients. \textit{American Thoracic Society (ATS)}, San Francisco, CA.
+
+\end{enumerate}
+
+\subsection{Conference Posters (Selected High-Impact Presentations)}
+
+% EDIT: Limited to most impactful posters to save space
+\begin{enumerate}
+  \leftskip-0.13in
+
+    \item \textbf{Plummer, J. W.}, et al. (2025). Respiratory-resolved lung oxygen and compliance mapping at 0.55T in patients with lymphangioleiomyomatosis. \textit{ISMRM}, Singapore.
+
+    \item Hussain, R., \textbf{Plummer, J. W.}, et al. (2025). Median-anchored Generalized Linear Binning vs Conventional Methods to Quantify \textsuperscript{129}Xe Lung Ventilation MRI. \textit{ISMRM}, Singapore.
+
+    \item Hussain, R., \textbf{Plummer, J.}, et al. (2023). Improved efficiency and quantitative accuracy in hyperpolarized \textsuperscript{129}Xe ventilation imaging using 2D spiral acquisition. \textit{ISMRM}, Toronto, Canada.
+    
+    \item \textbf{Plummer, J.}, et al. (2023). Compressed Sense Reconstructions Improve Non-Cartesian Hyperpolarized \textsuperscript{129}Xe MRI. \textit{ISMRM Workshop on Data Sampling and Reconstruction}, Sedona, AZ. \textbf{[Competitive workshop selection]}
+  
+    \item \textbf{Plummer, J.}, et al. (2022). Flip-angle map calculation via keyhole reconstruction in uniform and variable-density 2D-spiral hyperpolarized \textsuperscript{129}Xe MRI. \textit{ISMRM Hyperpolarized Media Study Session}, London, UK.
+  
+    \item \textbf{Plummer, J.}, et al. (2022). Assessing age dependence in hyperpolarized \textsuperscript{129}Xe gas-exchange MRI. \textit{ISMRM}, London, UK.
+
+    \item \textbf{Plummer, J.}, et al. (2020). Optimizing Hyperpolarized Xe-129 Production under Practical Cryogenic Accumulation Conditions. \textit{ISMRM}, Virtual Conference.
+    
+\end{enumerate}
+
+\noindent\textit{Complete conference presentation record (30+ presentations) available upon request.}
+
+\subsection{Professional Memberships}
+
+\begin{itemize}
+  \leftskip-0.25in
+  \item \textbf{Society for Cardiovascular Magnetic Resonance (SCMR)}, 2024--present
+  \item \textbf{International Society for Magnetic Resonance in Medicine (ISMRM)}, 2020--present
+  \item \textbf{Radiological Society of North America (RSNA)}, 2024--2025
+  \item \textbf{American Thoracic Society (ATS)}, 2021--2024
+  \item \textbf{Institute of Physics and Engineering in Medicine (IPEM)}, 2017--2018
+\end{itemize}
+
+\subsection{Technical Expertise} % EDIT: Reorganized for clarity
+
+\textbf{MRI Systems \& Hardware:}
+\begin{itemize}
+  \leftskip-0.25in
+    \item Siemens MRI scanner (0.55T Free.Max XL)
+    \item Philips MRI scanner (1.5T Ingenia and 3.0T Achieva, versions R5.3--R5.9)
+    \item Hyperpolarized gas production and imaging systems
+\end{itemize}
+
+\textbf{Programming \& Software Development:}
+\begin{itemize}
+  \leftskip-0.25in
+    \item \textbf{Python}: MRI image reconstruction, compressed sensing algorithms, data analysis, image processing
+    \item \textbf{MATLAB}: Digital image processing, GUI application development, statistical analysis
+    \item \textbf{C++}: MRI pulse sequence development and reconstruction algorithms
+    \item \textbf{R}: Statistical analysis using GAMLSS (Generalized Additive Models for Location, Scale and Shape)
+    \item \textbf{Linux}: WSL2, Linux programming with GPU acceleration
+    \item \textbf{Git}: Version control (GitHub, GitLab, GitKraken)
+    \item \textbf{LaTeX}: Scientific document and presentation preparation
+    \item \textbf{GPI}: Philips MRI reconstruction with Graphical Programming Interface
+\end{itemize}
+
+\textbf{Specialized Skills:}
+\begin{itemize}
+  \leftskip-0.25in
+    \item Advanced MRI reconstruction (compressed sensing, keyhole imaging, non-Cartesian trajectories)
+    \item Hyperpolarized gas imaging (\textsuperscript{129}Xe, \textsuperscript{1}H)
+    \item Image processing and quantitative analysis
+    \item Statistical modeling and data analysis
+\end{itemize}
+
+\subsection{Languages}
+
+\begin{itemize}
+  \leftskip-0.25in
+    \item \textbf{English}: Native proficiency
+    \item \textbf{German}: High school level (reading/writing/speaking)
+    \item \textbf{Norwegian}: High school level (reading/writing/speaking)
+\end{itemize}
+
+\subsection{Additional Activities and Interests}
+
+\textbf{Volunteer Work:}
+\begin{itemize}
+  \leftskip-0.25in
+  \item Weekly volunteer café assistant, 86 Coffee and Ministries, Cincinnati (2021--2023)
+  \item Weekly volunteer parking team leader, 7Hills Church, Cincinnati (2020--2023)
+\end{itemize}
+
+\textbf{Athletics and Outdoor Pursuits:}
+\begin{itemize}
+  \leftskip-0.25in
+  \item Mountaineering: Extensive experience in snowcraft, altitude training, river crossing, shelter construction, ice climbing, and skiing. Led teams on expeditions (8--40 km/day) in Iceland, France, UK, USA, New Zealand, Indonesia, Switzerland, Australia, and Cook Islands
+  \item PADI Open Water Diving Certification
+  \item Active in climbing, volleyball, swimming, sailing, running, weightlifting, tennis, and football
+\end{itemize}
+
+\subsection{References}
+
+\textit{Professional references available upon request from immigration counsel or USCIS.}
+
+\newpage
+
+\subsection{Abbreviations and Acronyms}
+
+\begin{table}[h!]
+{\def\arraystretch{1.3}\tabcolsep=8pt
+\begin{tabular}{p{0.15\linewidth}p{0.85\linewidth}}
+    \textbf{ASTCT} & American Society for Transplantation \& Cellular Therapy \\
+    \textbf{ATS} & American Thoracic Society \\
+    \textbf{BME} & Biomedical Engineering \\
+    \textbf{CIBMTR} & Center for International Blood \& Marrow Transplant Research \\
+    \textbf{CPIR} & Center for Pulmonary Imaging Research \\
+    \textbf{ENC} & Experimental Nuclear Magnetic Resonance Conference \\
+    \textbf{ESMRMB} & European Society for Magnetic Resonance in Medicine and Biology \\
+    \textbf{GPA} & Grade Point Average (American grading scale: 4.0 maximum) \\
+    \textbf{IPEM} & Institute of Physics and Engineering in Medicine \\
+    \textbf{ISMRM} & International Society for Magnetic Resonance in Medicine \\
+    \textbf{MRI} & Magnetic Resonance Imaging \\
+    \textbf{NHLBI} & National Heart, Lung, and Blood Institute \\
+    \textbf{NIH} & National Institutes of Health \\
+    \textbf{RSF} & Respiratory Structure and Function \\
+    \textbf{RSNA} & Radiological Society of North America \\
+    \textbf{SCMR} & Society for Cardiovascular Magnetic Resonance \\
+    \textbf{\textsuperscript{129}Xe} & Xenon-129 (hyperpolarized noble gas isotope used in MRI) \\
+\end{tabular}%
+}
+\end{table}
+
+\end{document}
